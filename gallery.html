@@ -1,0 +1,209 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>nativeDroid - Theme for jQuery Mobile</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		
+		<!-- FontAwesome - http://fortawesome.github.io/Font-Awesome/ -->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+		<!-- jQueryMobileCSS - original without styling -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+
+		<!-- nativeDroid core CSS -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.css" />
+
+		<!-- nativeDroid: Light/Dark -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.dark.css"  id='jQMnDTheme' />
+
+		<!-- nativeDroid: Color Schemes -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.color.purple.css" id='jQMnDColor' />
+
+		<!-- jQuery / jQueryMobile Scripts -->
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+
+
+    </head>
+    <body data-nativedroid-progress-animation='6'>
+        
+    <div data-role="page" data-theme='b'>
+
+
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+             <a  data-ajax='false' ><img class='logo' src='img/logo.png'></a>
+            <h1>Gallery</h1>
+        </div>
+        
+        <div data-role="content">  
+        	 
+<!--
+			USING FLICKR FOR YOUR GALLERY
+			------------------------------	
+	
+			GET PUBLIC PHOTOS ORDERED BY interestingness-desc
+			----
+			
+ 			<ul data-nativedroid-plugin='flickr'
+				data-nativedroid-flickr-apikey='YOUR_API_KEY_HERE'
+				data-nativedroid-flickr-cat='photos'
+				data-nativedroid-flickr-method='search'
+				data-nativedroid-flickr-parameter="user_id=49253686@N04&per_page=48&extras=description,date_upload,geo,views,url_sq,url_l,url_t&sort=interestingness-desc"
+			></ul>
+
+			
+			GET A PHOTOSET LIST BY USER
+			----
+			
+			<ul data-role='listview'
+				data-nativedroid-plugin='flickr'
+				data-nativedroid-flickr-apikey='YOUR_API_KEY_HERE'
+				data-nativedroid-flickr-cat='photosets'
+				data-nativedroid-flickr-method='getList'
+				data-nativedroid-flickr-parameter="user_id=49253686@N04"
+			></ul>
+			
+ -->
+ 
+			<div class='inset'>
+ 			<ul data-nativedroid-plugin='gallery'>
+            
+				<li style='background-image:url("images/1.jpg")' data-image-large='images/1.jpg' data-image-thumb='images/1.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/2.jpg")' data-image-large='images/2.jpg' data-image-thumb='images/2.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/4.jpg")' data-image-large='images/4.jpg' data-image-thumb='images/4.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/5.jpg")' data-image-large='images/5.jpg' data-image-thumb='images/5.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/6.jpg")' data-image-large='images/6.jpg' data-image-thumb='images/6.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/7.jpg")' data-image-large='images/7.jpg' data-image-thumb='images/7.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/8.jpg")' data-image-large='images/8.jpg' data-image-thumb='images/8.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/9.jpg")' data-image-large='images/9.jpg' data-image-thumb='images/9.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/10.jpg")' data-image-large='images/10.jpg' data-image-thumb='images/10.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/11.jpg")' data-image-large='images/11.jpg' data-image-thumb='images/11.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/12.jpg")' data-image-large='images/12.jpg' data-image-thumb='images/12.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/13.jpg")' data-image-large='images/13.jpg' data-image-thumb='images/13.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/14.jpg")' data-image-large='images/14.jpg' data-image-thumb='images/14.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/15.jpg")' data-image-large='images/15.jpg' data-image-thumb='images/15.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/16.jpg")' data-image-large='images/16.jpg' data-image-thumb='images/16.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/17.jpg")' data-image-large='images/17.jpg' data-image-thumb='images/17.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/18.jpg")' data-image-large='images/18.jpg' data-image-thumb='images/18.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/19.jpg")' data-image-large='images/19.jpg' data-image-thumb='images/19.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/20.jpg")' data-image-large='images/20.jpg' data-image-thumb='images/20.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/21.jpg")' data-image-large='images/21.jpg' data-image-thumb='images/21.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/22.jpg")' data-image-large='images/22.jpg' data-image-thumb='images/22.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/23.jpg")' data-image-large='images/23.jpg' data-image-thumb='images/23.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                
+                <li style='background-image:url("images/25.jpg")' data-image-large='images/25.jpg' data-image-thumb='images/25.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/26.jpg")' data-image-large='images/26.jpg' data-image-thumb='images/26.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/27.jpg")' data-image-large='images/27.jpg' data-image-thumb='images/27.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/28.jpg")' data-image-large='images/28.jpg' data-image-thumb='images/28.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/29.jpg")' data-image-large='images/29.jpg' data-image-thumb='images/29.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/30.jpg")' data-image-large='images/30.jpg' data-image-thumb='images/30.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/31.jpg")' data-image-large='images/31.jpg' data-image-thumb='images/31.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/32.jpg")' data-image-large='images/32.jpg' data-image-thumb='images/32.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/33.jpg")' data-image-large='images/33.jpg' data-image-thumb='images/33.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/34.jpg")' data-image-large='images/34.jpg' data-image-thumb='images/34.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/35.jpg")' data-image-large='images/35.jpg' data-image-thumb='images/35.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/36.jpg")' data-image-large='images/36.jpg' data-image-thumb='images/36.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/37.jpg")' data-image-large='images/37.jpg' data-image-thumb='images/37.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/38.jpg")' data-image-large='images/38.jpg' data-image-thumb='images/38.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/39.jpg")' data-image-large='images/39.jpg' data-image-thumb='images/39.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/40.jpg")' data-image-large='images/40.jpg' data-image-thumb='images/40.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/41.jpg")' data-image-large='images/41.jpg' data-image-thumb='images/41.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/42.jpg")' data-image-large='images/42.jpg' data-image-thumb='himages/42.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/43.jpg")' data-image-large='images/43.jpg' data-image-thumb='images/43.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                
+                <li style='background-image:url("images/45.jpg")' data-image-large='images/45.jpg' data-image-thumb='images/45.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/46.jpg")' data-image-large='images/46.jpg' data-image-thumb='images/46.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/47.jpg")' data-image-large='images/47.jpg' data-image-thumb='images/47.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/48.jpg")' data-image-large='images/48.jpg' data-image-thumb='himages/48.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/49.jpg")' data-image-large='images/49.jpg' data-image-thumb='images/49.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/50.jpg")' data-image-large='images/50.jpg' data-image-thumb='images/50.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/51.jpg")' data-image-large='images/51.jpg' data-image-thumb='images/51.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/52.jpg")' data-image-large='images/52.jpg' data-image-thumb='images/52.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/53.jpg")' data-image-large='images/53.jpg' data-image-thumb='images/53.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/54.jpg")' data-image-large='images/54.jpg' data-image-thumb='images/54.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/55.jpg")' data-image-large='images/55.jpg' data-image-thumb='images/55.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/56.jpg")' data-image-large='images/56.jpg' data-image-thumb='images/56.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+                
+                <li style='background-image:url("images/57.jpg")' data-image-large='images/57.jpg' data-image-thumb='images/57.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div></li>
+             
+				<div class='overlay'></div>
+ 			</ul>
+		        
+        </div>
+
+<div data-role="footer" class="ui-bar" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="lineup.html" data-ajax="false"><i class='blIcon fa fa-star'></i><i class='menu_font'>lineup</i></a></li>
+                    
+                    
+					<li><a href="tickets.html" data-ajax="false"><i class='blIcon fa fa-ticket'></i><i class='menu_font'>tickets</i></a></li>
+					<li><a href="news.html" data-ajax="false"><i class='blIcon fa fa-facebook-square'></i><i class='menu_font'>news</i></a></li>
+                    
+                    <li><a href="gallery.html" data-ajax="false"><i class='blIcon fa fa-image'></i><i class='menu_font'>gallery</i></a></li>                   
+                    <li><a href="about.html" data-ajax="false"><i class='blIcon fa fa-info-circle'></i><i class='menu_font'>about</i></a></li>
+   
+				</ul>
+			</div>
+         </div>
+		
+
+    </div>
+    
+    </div>
+    
+    <script src="js/nativedroid.script.js"></script>
+    </body>
+</html>
