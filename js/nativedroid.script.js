@@ -1023,7 +1023,7 @@ $(document).on("pageinit",function() {
 								for(i = 0;i < data.entries.length; i++) {
 									entry = data.entries[i];
 									feedHTML += "<li>";
-										feedHTML += "<div class='feedActionBox'><a href='"+entry.link+"' target='_blank'><i class='icon-share-alt'></i></a></div>";
+										feedHTML += "<div class='feedActionBox'><a href='"+entry.link+"' target='_blank'><i class='fa fa-mail-forward'></i></a></div>";
 										feedHTML += "<strong>"+entry.title+"</strong>";
 										feedHTML += "<p>"+nativeDroid.basic.dateFormat.format(entry.publishedDate)+" | "+entry.contentSnippet+"</p>";
 									feedHTML += "</li>";
@@ -1031,7 +1031,7 @@ $(document).on("pageinit",function() {
 
 									html = "<ul>";
 										html += "<li class='widgetTitleBar'>";
-											html += "<h3>"+feedTitle+"</h3>";
+											html += "<h4>From Moondance Festival Facebook Wall</h4>";
 										html += "</li>";
 										html += feedHTML;
 									html += "</ul>";

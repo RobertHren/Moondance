@@ -1403,7 +1403,7 @@ font-style: normal;
 	display: block;
 	position: fixed;
 	width: 100%;
-	height: 100%;
+	height: 80%;
 	z-index: 99997;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -1429,6 +1429,9 @@ font-style: normal;
 	-ms-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
+}
+.ui-footer.ui-bar-b {
+z-index: 99999;
 }
 
 .nativeDroidHomescreen div[data-nativedroid-role="screenslide"].left {
